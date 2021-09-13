@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>question 1</title>
+</head>
+<body>
+ <form>
+  <fieldset>
+   <legend>Personal Details</legend>	
+   <label for="name">Name:</label>
+   <br>
+   <input type="text" id="name" placeholder="Name" name="name" maxlength="25" required>
+   <br>
+   <label for="E-mail">E-mail:</label>
+   <br>
+   <input type="text" id="E-mail" placeholder="test@example.com" name="E-mail" required autofocus="E-mail">
+   <br>
+   <label for="password">Password:</label>
+   <br>
+   <input type="password"id="password" name="password" minlength=6 required>
+   </fieldset>
+   <br>
+   <br>
+   <label for="category">Category:</label>
+   <select id="category" name="category">
+  	<option value="student">Student</option>
+  	<option value="employer">Employer</option>
+  	<option value="freelancer" selected>Freelancer</option>
+   </select>
+   <br>
+   <br>
+    Event Date:
+    <input type="date" name="eventdate" required>
+   <br>
+   <br>
+    <input type="radio" name="subject" value="1 ticket">1 ticket
+    <input type="radio" name="subject" value="2 ticket" checked>2 tickets
+    <input type="radio" name="subject" value="3 ticket">3 tickets
+   <br>
+   <br>
+    <label for="onlinepayment">Online Payment:</label>
+    <input type="checkbox" id="online-payment" name="onlinepayment" value="Online Payment">
+   <br>
+   <br>  	
+   Notes:
+   <br>
+    <textarea rows="5" cols="50" name="description" placeholder="Notes"></textarea>
+   <br>
+     <input type="submit"name="submit"value="Submit"/> 
+     <input type="reset"name="reset"value="Reset"/>
+ </form>
+</body>
+</html> 
